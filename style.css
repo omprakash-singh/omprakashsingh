@@ -75,9 +75,9 @@
 }
 @media (max-width: 800px){
     .contact form{
-        position: absolute;
-        left: 50%;
-        width: 395px;
+        margin-left: 0;
+        width: 351px;
     }
 }
+
 
