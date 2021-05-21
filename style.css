@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(backgroundimg.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.front-page{
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.front-page h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.front-page p{
+    font-size: 30px;
+}
+.profile-image img{
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.profile{
+    background-color: #f0f8ff;
+}
+.profile-header p{
+    margin-top: 10px;
+}
+.profile-header{
+    font-family: 'Julius Sans One', sans-serif;
+}
+.profile-header h1{
+    padding-top: 50px;
+}
+.about{
+    background-color: #ffe4c4;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.about-me{
+    text-align: center;
+}
+.about-me p{
+    text-align: center;
+    width: 90%;
+}
+.about-me h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.expreance{
+    margin-top: 40px;
+}
+.expreance h2{
+    margin-top: 40px;
+}
+.contact{
+    height: 95vh;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    background: #000;
+}
+.contact form{
+    margin-left: 500px;
+    width: 500px;
+}
+@media (max-width: 800px){
+    .contact form{
+        margin-left: 0;
+        width: 351px;
+    }
+}
